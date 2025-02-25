@@ -85,7 +85,8 @@ public class MovieCollection {
         }else{
             System.out.println("No movie titles match that search term");
         }
-
+        System.out.println("** Press ENTER to return to Main Menu **");
+        scanner.nextLine();
 
     }
     private void searchCast(){
@@ -135,6 +136,8 @@ public class MovieCollection {
         }else{
             System.out.println("No actors match that name");
         }
+        System.out.println("** Press ENTER to return to Main Menu **");
+        scanner.nextLine();
 
     }
 
